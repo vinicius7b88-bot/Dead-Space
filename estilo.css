@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.3rem;
+    font-family: oswald , sans-serif;
+    background: #e60a0a;
+background-image: url(https://cdn1.epicgames.com/offer/4ec958d5e4b6429aadbc116cee0b6ea0/EGS_DeadSpace_MotiveStudio_S1_2560x1440-29a4c1833cda886993ae7a510023577a);
+}
+
+a{
+    color: rgb(213, 9, 9);
+    text-decoration: none;
+
+}
+
+.main-header{
+    height: 55vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.main-header h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    line-height: 1.2rem;
+}
+
+.main-header h1 span{
+    color: #b50d10;
+}
+
+.main-header p{
+    font-size: 2rem;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: #f50000;
+    margin-bottom: 2rem;
+}
+
+.card h3{
+    margin-bottom: 2rem;
+
+}
+.card img{
+    height: 400px;
+}
+
+.card>div{
+    padding: 2rem;
+}
+
+.card:nth-child(even) img{
+    order: 2;
+}
+    
+
+.btn{
+    display: inline-block;
+    background: rgb(244, 231, 231);
+    color: rgb(0, 0, 0);
+    padding: 0.8rem 1.8rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+
+.galeria{
+    display: flex;
+    height: 25rem;
+    gap: 1rem;
+}
+
+.galeria > div{
+    flex: 1;
+    background-position: center;
+    background-size: cover;
+    transition: all .7s cubic-bezier(1, 1, 1, 1);
+
+
+
+}
+
+
+.galeria>div:hover{
+    flex:3;
+}
+
+
+
+h1{
+    color: #ffff;
+}
+
+
+p{
+    color: #fff;
+}
+
+footer{
+    color: #f50000;
+}
+
+
+
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+
+h2{
+    color: #fff;
+}
